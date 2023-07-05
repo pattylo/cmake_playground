@@ -1,0 +1,8 @@
+#define HAHA_VERSION_MAJOR @HAHA_VERSION_MAJOR@
+#define HAHA_VERSION_MINOR @HAHA_VERSION_MINOR@
+
+#cmakedefine USER_ADDER
+
+#ifdef USER_ADDER
+    #include <wtf.h>
+#endif
